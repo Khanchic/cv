@@ -8,7 +8,8 @@ html,body{
 body{
     background-color: #1e1f23;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+   
     align-items: center;
 
 }
@@ -30,7 +31,7 @@ body{
 /* Video - Tutorial */
 .menu
 {
-
+    margin-right: 60px;
     position: relative;
     width: 240px;
     height: 235px;
@@ -180,3 +181,8 @@ ul.modal__nav {
 .btn-close:hover{
     opacity: 2;
 }
+
+/* ==================================================
+ */
+
+ 
