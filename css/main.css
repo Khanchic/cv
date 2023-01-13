@@ -15,7 +15,8 @@ body{
 }
 /* Size and Background  */
 .toggle img
-{
+{   
+    
     width: 80px;
     border-radius: 72%;
     background-repeat: no-repeat;
@@ -30,8 +31,8 @@ body{
 }
 /* Video - Tutorial */
 .menu
-{
-    margin-right: 60px;
+{   
+    
     position: relative;
     width: 240px;
     height: 235px;
