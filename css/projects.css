@@ -7,10 +7,7 @@ body {
 
 
 .modal {
-
-    
-    position: fixed;
-    
+    margin-top: 100px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -30,7 +27,7 @@ body {
     position: relative;
     z-index: 2;
     width: 400px;
-    height: 320px;
+    height: 650px;
 
     background: rgba(255, 255, 255, 0.21);
     border-radius: 16px;
@@ -62,13 +59,12 @@ ul.modal__nav {
     flex-direction: column;
 }
 
-.modal__info {
-    padding-top: 55px;
 
-}
 
 .modal__link {
     color: #ff2972;
+    font-size: 25px;
+    margin-left: 20px;
     text-decoration: none;
 }
 
@@ -117,4 +113,20 @@ ul.modal__nav {
 
 .ref__style {
     margin-top: 15px;
+}
+
+.title{ 
+    color: #ff2972;
+    margin: 0;
+}
+.text{
+font-size: 25px;
+}
+.pre-text{
+font-size: 20px;
+}
+.text-span{
+font-size: 20px;
+margin-right: 6px;
+color: #fea600;
 }
